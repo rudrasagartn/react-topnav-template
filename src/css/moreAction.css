@@ -1,0 +1,40 @@
+/* .btn-primary.dropdown-toggle.btn.btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-toggle.btn.btn-primary:focus {
+    display: none
+}
+
+.dropdown-toggle.btn.btn-primary::after {
+    display: none
+} */
+
+.btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-toggle .btn .btn-primary:focus {
+    display: none
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0;
+}
